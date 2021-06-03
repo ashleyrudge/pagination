@@ -41,34 +41,12 @@ function App() {
         than ever before"
         discription="We've pushed visual, audio, and ergonomic technologies to create the best-in-class VR experience."/>
 
-<div class="controllers">
-              <div class="con-title">
-              Controllers
-              </div>
-            <img class="con-image" src={controllers} alt="VR"/>
-            <div class="con-content">
-              <div class="con-sub-title">
-              Your hands,
-in Virtual Reality
-              </div>
-              <div class="con-discription">
-              Designed from the ground up to enable natural interactions, high-fidelity hand presence, and long-term comfort.
-              </div>
-            </div>
-            <div class="con-action-container">
-              <div class="con-comment-container">
-                <img class="icon" src={comment} alt="comment"/>
-                <div class="count">349</div>
-              </div>
-              <div class="con-view-container">
-                <img class="icon" src={view} alt="view"/>
-                <div class="count">49500</div>
-              </div>
-              <div class="con-share-container">
-                <img class="icon" src={share} alt="share"/>
-              </div>
-            </div>
-            </div>
+
+        <Card 
+        image={controllers}
+        title="Controllers"
+        subtitle= "Your hands handsin Virtual Reality"
+        discription= "Designed from the ground up to enable natural interactions high-fidelity hand presence and long-term comfort"/>
 
         <Card 
         image={stations}
@@ -76,6 +54,7 @@ in Virtual Reality
         subtitle="Best-in-industry room-scale tracking"
         discription="The highest quality tracking has gotten even better with Base Station 2.0, now with improved range, field of view, and scalability."/>
         </div>
+        
         <div class="slider-dots">
         <div class="dot">
             <img class="dot-image" src={dot} alt="dot"/>
