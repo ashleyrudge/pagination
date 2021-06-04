@@ -65,8 +65,10 @@
 }
 
 .cards{
-  justify-content: center;
-  display: flex;
+	display: flex;
+	width: 70%;
+    margin-right: auto;
+	margin-left: auto;
 }
 
 .VR{
@@ -77,11 +79,6 @@
   background: #FFFFFF;
   box-shadow: 0px 5px 10px rgb(0 0 0 / 5%);
   border-radius: 4px;
-}
-
-.VR:hover{
-  background-color: black;
-  color: white;
 }
 
 .VR-image{
@@ -260,4 +257,41 @@ li + li {
 .icon {
 	height: 22px;
 	width: 22px;
+}
+
+
+.cards > div {
+	width: 33.333%;
+}
+
+
+.VR {
+	transition: all .25s;
+}
+
+.VR .title{
+	transition: all .25s;
+}
+
+.VR .sub-title{
+	transition: all .25s;
+}
+
+.VR .discription{
+	transition: all .25s;
+}
+.VR:hover {
+	background: #000;
+}
+
+.VR:hover .title{
+	color: #FFFFFF;
+}
+
+.VR:hover .sub-title{
+	color: #FFFFFF;
+}
+
+.VR:hover .discription{
+	color: #FFFFFF;
 }
