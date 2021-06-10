@@ -1,0 +1,221 @@
+#Popup {
+
+	.background {
+		position: relative;
+	
+		display: flex;
+	}
+	
+	img {
+		width: 100%;
+	}
+	
+	.status-bar {
+		padding-top: 10px;
+		width: 100%;
+		display: flex;
+		position: absolute;
+		align-items: center;
+		justify-content: center;
+	
+		position: absolute;
+	}
+	
+	.status-bar-child {
+		display: flex;
+		width: 90%;
+		justify-content: space-between;
+	}
+	
+	.time {
+		display: flex;
+		flex-grow: 1;
+		align-items: flex-end;
+		text-align: center;
+		letter-spacing: -0.02em;
+		font-family: Montserrat;
+		font-size: 15px;
+		line-height: 18px;
+		color: #ffffff;
+	}
+	
+	.box {
+		display: flex;
+	}
+	
+	.mobile-signal {
+		padding-right: 5px;
+	}
+	
+	.wifi {
+		padding-right: 5px;
+	}
+	
+	.discription {
+		bottom: 137px;
+		width: 100%;
+		bottom: 150px;
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.discription-child {
+	}
+	
+	.date {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 24px;
+		display: flex;
+		align-items: flex-end;
+		text-align: center;
+	
+		color: #ffffff;
+	}
+	
+	.last {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 87px;
+		line-height: 91px;
+		/* identical to box height */
+	
+		text-align: center;
+	
+		color: #ffffff;
+	}
+	
+	.of-us {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 87px;
+		line-height: 91px;
+		/* identical to box height */
+	
+		text-align: center;
+	
+		color: #ffffff;
+	}
+	
+	.part-2 {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 47px;
+		line-height: 64px;
+		text-align: center;
+	
+		color: #ffffff;
+	}
+	
+	.more-button {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		position: absolute;
+		bottom: 90px;
+		flex-direction: column;
+	}
+	
+	.more-text {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 15px;
+		/* identical to box height */
+	
+		display: flex;
+		align-items: flex-end;
+		letter-spacing: -0.02em;
+	
+		color: #ffffff;
+	
+		opacity: 0.5;
+	}
+	
+	.tab-bar {
+		width: 100%;
+		justify-content: space-around;
+		align-items: center;
+		display: flex;
+		position: fixed;
+		bottom: 0;
+		background: #181a1f;
+		height: 9%;
+	}
+	
+	.icon {
+		padding-bottom: 7px;
+		display: flex;
+		width: 22px;
+		height: 19px;
+	}
+	
+	.text {
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		line-height: 12px;
+		display: flex;
+		align-items: flex-end;
+		text-align: center;
+		letter-spacing: -0.02em;
+	
+		color: #ffffff;
+	}
+	
+	.home-tab {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.games-tab {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.liked-tab {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.search-tab {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.profile-tab {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.back-arrow {
+		display: flex;
+		position: absolute;
+		top: 57px;
+		padding-left: 20px;
+	}
+	
+
+}
+

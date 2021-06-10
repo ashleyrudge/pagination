@@ -1,0 +1,294 @@
+
+#pagination{
+  flex-direction: column;
+  display: flex;
+    background: #F2F2F2;
+    height: auto;
+   
+	.header {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px;
+	}
+	
+	.section-1 {
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	
+	.menu {
+		width: 23px;
+		height: 23px;
+		margin-right: 20px;
+	}
+	
+	.logo {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 27.451px;
+		line-height: 27px;
+		color: #000;
+	}
+	
+	.profile {
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	
+	.profile-image {
+		object-fit: cover;
+		width: 36px;
+		height: 36px;
+		border-radius: 36px;
+	}
+	
+	.profile-name {
+		font-family: poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+		color: #000;
+	}
+	
+	.box {
+		margin-right: 20px;
+	}
+	
+	.cards{
+		display: flex;
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.VR{
+	  margin: 10px;
+	  width: 280px;
+	  display: flex;
+	  flex-direction: column;
+	  background: #FFFFFF;
+	  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.411);
+	  border-radius: 4px;
+	}
+	
+	.VR-image{
+	  height: 300px;
+	  width: 100%;
+	  object-fit: cover;
+	  border-radius: 4px 4px 0px 0px;
+	}
+	.VR-content{
+	 padding: 10px;
+	}
+	
+	.title{
+	  padding-bottom: 8px;
+	  font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 24px;
+	/* identical to box height, or 171% */
+	
+	letter-spacing: 2px;
+	
+	color: #4CD964;
+	}
+	
+	.sub-title{
+	  padding-bottom: 10px;
+	  font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 34px;
+	/* or 142% */
+	
+	letter-spacing: -1px;
+	
+	color: #1B1B1B;
+	}
+	
+	.discription{
+	  height: 96px;
+	  font-family: poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 24px;
+	color: #9B9B9B;
+	}
+	
+	.action-container{
+	  margin-top: auto;
+	  border-top: 1px solid #EAEAEA;
+	  align-items: center;
+	  display: flex;
+	  padding: 10px;
+	
+	}
+	
+	.comment-container{
+	  
+	  padding-right: 8px;
+	  display: flex;
+	}
+	
+	.icon{
+	  padding-right: 8px;
+	  height: 15px;
+	  width: 15px;
+	}
+	
+	.view-container{
+	  display: flex;
+	}
+	
+	.share-container{
+	  display: flex;
+	  flex-grow: 2;
+	  justify-content: flex-end;
+	}
+	
+	.count{
+	  font-family: poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	color: #9B9B9B;
+	
+	}
+	
+	.slider-dots{
+	  display: flex;
+		justify-content: center;
+		padding: 24px;
+	}
+	
+	.dot{
+	  margin: 5px;
+	}
+	
+	.footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 14px;
+	  margin-top: auto;
+	}
+	
+	.footer-menu {
+		display: flex;
+		flex-grow: 1;
+	}
+	
+	.follow-on {
+		display: flex;
+		flex-grow: 2;
+		justify-content: flex-end;
+	}
+	
+	.copyright-container {
+		margin-left: 28px;
+		display: flex;
+		flex-grow: 2;
+	}
+	
+	.copyright-text {
+		font-family: poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		color: #000000;
+	}
+	
+	.icon {
+		margin-right: 6px;
+	}
+	
+	.youtube {
+		margin-right: 20px;
+	}
+	
+	
+	ul {
+	  
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+	}
+	
+	a {
+		text-decoration: none;
+	  color: #000;
+	}
+	
+	
+	li + li {
+		margin-left: 45px;
+	}
+	
+	.privacy-policy{
+	  margin-right: 75px;
+	}
+	
+	.button-text {
+		font-family: poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 28px;
+		color: #000;
+	}
+	
+	.icon {
+		height: 22px;
+		width: 22px;
+	}
+	
+	
+	.cards > div {
+		width: 33.333%;
+	}
+	
+	
+	.VR {
+		transition: all .25s;
+	}
+	
+	.VR .title{
+		transition: all .25s;
+	}
+	
+	.VR .sub-title{
+		transition: all .25s;
+	}
+	
+	.VR .discription{
+		transition: all .25s;
+	}
+	.VR:hover {
+		background: #000;
+	}
+	
+	.VR:hover .title{
+		color: #FFFFFF;
+	}
+	
+	.VR:hover .sub-title{
+		color: #FFFFFF;
+	}
+	
+	.VR:hover .discription{
+		color: #FFFFFF;
+	}
+
+}
+
