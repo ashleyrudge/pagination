@@ -136,15 +136,16 @@ function Responsive() {
                        <div class="congts">
                        Thanks! Email received.
                        </div>
-                   </div>
                 </div>
-                </div>
-                <div class="join-button">
+            </div>
+            <div class="join-button">
                 <div class="joinb">
                    <button class="join">JOIN OUR LIST</button>
                    </div>
+                   </div>
+                </div>
             </div>
-            </div>
+           
             </div>
             <div class="sec5">
             <div class="brands">
