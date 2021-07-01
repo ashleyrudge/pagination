@@ -11,7 +11,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Responsive from "./pages/Responsive/Responsive";
+import Responsive2 from "./pages/Responsive2/Responsive2";
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
             <Creditcard />
           </Route>
           <Route path="/responsive2">
-            <Responsive/>
+            <Responsive2/>
           </Route>
           
         </Switch>
