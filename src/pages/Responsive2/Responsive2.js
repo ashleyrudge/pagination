@@ -27,6 +27,7 @@ function Responsive2() {
 
         <div class="section-2">
           <div class="background">
+            <div class="container">
             <div class="header">
               <div class="header-content">
                 <div class="main">Create Stunning Email Campaigns</div>
@@ -47,9 +48,11 @@ function Responsive2() {
                 <img src={heroimg} alt="heroimg"></img>
               </div>
             </div>
+            </div>
           </div>
         </div>
         <div class="section-3">
+        <div class="container">
           <div class="video-con">
             <img class="video" src={video} alt="#" />
             <div class="content">
@@ -60,20 +63,22 @@ function Responsive2() {
             </div>
           </div>
         </div>
+        </div>
 
         <div class="section-4">
           <div class="sec4-bg">
+           <div class="container">
             <div class="card-con">
               <div class="cards">
                 <Card
                   image={card1}
                   content="Launch campaigns but also find new customers. Our unique platform handles campaigns from start to end."
-                />
+                  />
                 <div class="card2">
                   <Card
                     image={card2}
                     content="Start building and sharing with your team today. NinjaMail is renowned for its industry leading team collaboration tools."
-                  />
+                    />
                 </div>
               </div>
               <div class="side-con">
@@ -87,9 +92,13 @@ function Responsive2() {
                 </div>
               </div>
             </div>
+            </div>
           </div>
         </div>
+        
         <div class="section-5">
+          <div class="container">
+
           <div class="case-section">
             <div class="case-study">
               <Case image={frankie} name="Frankie" year="Member since 2016" />
@@ -122,9 +131,11 @@ function Responsive2() {
               </div>
             </div>
           </div>
+          </div>
         </div>
 
         <div class="section-6">
+          <div class="container">
           <div class="brands">
             <div class="brand-title">All the best brands already use us.</div>
             <div class="brand-logo">
@@ -136,6 +147,7 @@ function Responsive2() {
                 <img class="game" src={logo5} alt="#"></img>
               </div>
             </div>
+          </div>
           </div>
         </div>
         <div class="section-7">
@@ -149,6 +161,7 @@ function Responsive2() {
           </div>
         </div>
         <div class="section-8">
+          <div class="container">
           <div class="footer">
             <div class="foot-logo">
               <div class="foot-img">
@@ -222,9 +235,11 @@ function Responsive2() {
               </div>
             </div>
           </div>
+          </div>
         </div>
 
         <div class="section-9">
+          <div class="container">
           <div class="copyright-sec">
             <div class="copyright">
               <div class="copy-text">
@@ -240,6 +255,7 @@ function Responsive2() {
               </div>
             </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
