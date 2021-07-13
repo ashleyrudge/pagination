@@ -140,11 +140,17 @@ function Responsive2() {
             <div class="brand-title">All the best brands already use us.</div>
             <div class="brand-logo">
               <div class="logos-con">
+                <div class="div1">
                 <img class="knight" src={logo1} alt="#"></img>
                 <img class="dragon" src={logo2} alt="#"></img>
+                </div>
+                <div class="div2">
                 <img class="quest" src={logo3} alt="#"></img>
                 <img class="radio" src={logo4} alt="#"></img>
+                </div>
+                <div class="div3">
                 <img class="game" src={logo5} alt="#"></img>
+                </div>
               </div>
             </div>
           </div>
@@ -170,7 +176,77 @@ function Responsive2() {
             </div>
             <div class="footer-menu">
               <div class="footer-links">
+                <div class="mob-sec">
                 <div class="sec">
+                <a class="l" href="#">
+                    Features
+                  </a>
+                  <a class="l" href="#">
+                    Pricing
+                  </a>
+                  <a class="l" href="#">
+                    Services
+                  </a>
+                  <a class="l" href="#">
+                    Partners
+                  </a>
+                </div>
+
+                <div class="sec">
+                <a class="l" href="#">
+                    About Us
+                  </a>
+                  <a class="l" href="#">
+                    Tutorials
+                  </a>
+                  <a class="l" href="#">
+                    Resources
+                  </a>
+                  <a class="l" href="#">
+                    Help Center
+                  </a>
+                  <a class="l" href="#">
+                    Templates
+                  </a>
+                  <a class="l" href="#">
+                    Case Studies
+                  </a>
+                </div>
+                </div>
+
+                <div class="mob-sec">
+
+                <div class="sec">
+                <a class="l" href="#">
+                    Medium
+                  </a>
+                  <a class="l" href="#">
+                    Twitter
+                  </a>
+                  <a class="l" href="#">
+                    Facebook
+                  </a>
+                  <a class="l" href="#">
+                    Instagram
+                  </a>
+                  <a class="l" href="#">
+                    LinkedIn
+                  </a>
+                </div>
+                <div class="sec">
+                <a class="l" href="#">
+                    Contact Us
+                  </a>
+                  <a class="l" href="#">
+                    Slack
+                  </a>
+                  <a class="l" href="#">
+                    Jobs
+                  </a>
+                </div>
+                </div>
+                {/* <div class="sec">
+                  <div class="mob-sec1">
                   <a class="l" href="#">
                     Features
                   </a>
@@ -203,8 +279,11 @@ function Responsive2() {
                   <a class="l" href="#">
                     Case Studies
                   </a>
+                  </div>
                 </div>
                 <div class="sec">
+                  <div class="mob-sec2">
+
                   <a class="l" href="#">
                     Medium
                   </a>
@@ -231,7 +310,8 @@ function Responsive2() {
                   <a class="l" href="#">
                     Jobs
                   </a>
-                </div>
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>
