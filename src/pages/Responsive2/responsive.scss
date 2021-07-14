@@ -425,6 +425,11 @@
       padding: 315px 0;
       margin-top: -130px;
       margin-bottom: -130px;
+      @media screen and (max-width: 1024px){
+        padding: 250px 0;
+        margin-top: -130px;
+        margin-bottom: -71px;
+      }
       @media screen and (max-width: 767px) {
         padding: 150px 0;
       }
@@ -448,6 +453,10 @@
             justify-content: center;
             margin-left: 76px;
             width: 30%;
+            @media screen and (max-width: 1024px){
+              margin-left: 34px;
+              width: 30%;
+            }
             @media screen and (max-width: 767px) {
               margin-left: 0px;
               width: 75%;
@@ -464,6 +473,11 @@
               line-height: 48px;
               color: #000000;
               margin-bottom: 30px;
+              @media screen and (max-width: 1024px){
+                font-size: 28px;
+                line-height: 120%;
+                width: unset;
+              }
               @media screen and (max-width: 767px) {
                 font-size: 28px;
                 line-height: 30px;
@@ -480,6 +494,11 @@
               font-size: 19px;
               line-height: 26px;
               color: #000000;
+              @media screen and (max-width: 1024px){
+                font-size: 12px;
+                line-height: 153%;
+                width: unset;
+              }
               @media screen and (max-width: 767px) {
                 font-size: 12px;
                 line-height: 20px;
@@ -498,6 +517,10 @@
             .card2 {
               transform: translatey(86px);
               margin-left: 47px;
+              @media screen and (max-width: 1024px){
+                transform: translatey(50px);
+                margin-left: 23px;
+              }
               @media screen and (max-width: 767px) {
                 margin-left: 0px;
                 transform: translate(57px, 15px);
@@ -507,21 +530,41 @@
             .card {
               background: #ffffff;
 
+              @media screen and (max-width: 1024px){
+                width: 230px;
+              }
+
               @media screen and (max-width:767px) {
                 transform: translate(-29px, 6px);
-              }         
+                
+              }     
+              
+              .ava-con{
+                @media screen and (max-width: 1024px){
+                  width: 100%;
+                }
+
                 img {
+                  @media screen and (max-width: 1024px){
+                    object-fit: cover;
+                    width: 100%;
+                  }
                   @media screen and (max-width: 767px) {
                     width: 100%;
                   }
 
               }
+              }
+               
 
               .container {
                 display: flex;
                 padding: 25px;
                 align-items: center;
                 justify-content: center;
+                @media screen and (max-width: 1024px){
+                  padding: 15px;
+                }
                 @media screen and (max-width: 767px) {
                   padding: 10px;
                 }
@@ -536,6 +579,11 @@
                   display: flex;
                   flex-direction: column;
                   width: 251px;
+
+                  @media screen and (max-width: 1024px){
+                    font-size: 12px;
+                    line-height: 120%;
+                  }
 
                   @media screen and (max-width: 767px) {
                     font-size: 12px;
@@ -562,6 +610,11 @@
                       line-height: 19px;
                       color: #4ba87d;
                       padding: 0;
+
+                      @media screen and (max-width: 1024px){
+                        font-size: 12px;
+                        line-height: 120%;
+                      }
 
                       @media screen and (max-width: 767px) {
                         font-size: 12px;

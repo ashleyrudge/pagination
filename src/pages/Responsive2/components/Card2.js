@@ -6,7 +6,9 @@ function Card(props) {
   console.log(props)
     return(
         <div class="card">
+          <div class="ava-con">
         <img class="ava" src={props.image} alt="Avatar"></img>
+          </div>
         <div class="container">
           <div class="content">
             {props.content}
