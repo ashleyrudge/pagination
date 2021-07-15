@@ -140,17 +140,17 @@ function Responsive2() {
             <div class="brand-title">All the best brands already use us.</div>
             <div class="brand-logo">
               <div class="logos-con">
-                <div class="div1">
+                
                 <img class="knight" src={logo1} alt="#"></img>
                 <img class="dragon" src={logo2} alt="#"></img>
-                </div>
-                <div class="div2">
+               
+               
                 <img class="quest" src={logo3} alt="#"></img>
                 <img class="radio" src={logo4} alt="#"></img>
-                </div>
-                <div class="div3">
+                
+                
                 <img class="game" src={logo5} alt="#"></img>
-                </div>
+               
               </div>
             </div>
           </div>

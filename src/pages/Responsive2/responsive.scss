@@ -4,7 +4,7 @@
 
 .responsive {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   .section-1 {
     padding-top: 22px;
@@ -445,6 +445,7 @@
 
           @media screen and (max-width: 767px) {
             flex-direction: column;
+            
           }
 
           .side-con {
@@ -511,8 +512,9 @@
             display: flex;
             @media screen and (max-width: 767px) {
               flex-direction: column;
-              width: 65%;
+              width: 100%;
             }
+            
 
             .card2 {
               transform: translatey(86px);
@@ -522,8 +524,11 @@
                 margin-left: 23px;
               }
               @media screen and (max-width: 767px) {
-                margin-left: 0px;
-                transform: translate(57px, 15px);
+               width: 70%;
+               margin-left: auto;
+               margin-right: 30px;
+               margin-top: 30px;
+               transform: none;
               }
             }
 
@@ -534,10 +539,7 @@
                 width: 230px;
               }
 
-              @media screen and (max-width:767px) {
-                transform: translate(-29px, 6px);
-                
-              }     
+              
               
               .ava-con{
                 @media screen and (max-width: 1024px){
@@ -631,6 +633,15 @@
                 }
               }
             }
+            > .card {
+              @media screen and (max-width:767px) {
+                transform: none;
+                width: 70%;
+                margin-left: 30px;
+                margin-right: auto;
+                
+              }     
+            }
           }
         }
       }
@@ -640,7 +651,7 @@
   .section-5 {
 
     @media screen and (max-width: 767px){
-      margin-top: 55px;
+      margin-top: 0;
     }
 
     .container {
@@ -1000,70 +1011,18 @@
               width: 80%;
             }
             @media screen and (max-width: 767px) {
-              flex-direction: column;
-             
+              flex-wrap: wrap;
+             justify-content: center;
             }
 
-            .div1{
-
-              @media screen and (max-width: 767px) {
-                display: flex;
-                align-items: baseline;
-              }
-              .knight{
-                margin-right: 63px;
-                @media screen and (max-width: 1024px){
-                  width: 45%;
-                  margin-right: 30px;
-                }
-                @media screen and (max-width: 767px){
-                  width: 40%;
-                }
-              }
-
-              .dragon{
-                @media screen and (max-width: 1024px){
-                  width: 30%;
-                }
-                @media screen and (max-width: 767px){
-                  width: 25%;
-                }
-              }
-            }
-
-            .div2{
-              display: flex;
-              @media screen and (max-width: 1024px){
-                justify-content: center;
-
-              }
-              @media screen and (max-width: 767px){
-                align-items: baseline;
-                margin-top: 20px;
-              }
-
-              .quest{
-                margin-right: 67px;
-                @media screen and (max-width: 1024px){
-                  margin-right: 45px;
-                  width: 35%;
-                }
-                @media screen and (max-width: 767px){
-                  width: 40%;
-                }
-              }
-
-              .radio{
-                @media screen and (max-width: 1024px){
-                  width: 35%;
-                }
-                @media screen and (max-width: 767px){
-                  width: 34%;
-                }
-              }
-            }
+            
+            
 
             img {
+              @media screen and (max-width: 767px){
+                width: 50%;
+                padding: 15px;
+              }
               + img {
                 @media screen and (max-width: 767px) {
                  margin-top: 20px;
@@ -1072,17 +1031,7 @@
               }
             }
 
-            .div3{
 
-              .game{
-                @media screen and (max-width: 1024px){
-                  width: 85%;
-                }
-              }
-              @media screen and (max-width: 767px){
-                margin-top: 26px;
-              }
-            }
           }
         }
       }
@@ -1194,12 +1143,16 @@
 
             @media screen and (max-width: 767px){
               justify-content: unset;
+              margin-top: 15px;
+              margin-left: 10px;
             }
 
             .mob-sec{
+              
               display: flex;
               @media screen and (max-width: 767px){
                 flex-direction: column;
+                width: 50%;
               }
             }
 
