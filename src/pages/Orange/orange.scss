@@ -1,0 +1,675 @@
+.orange {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+
+  .section-1 {
+    background-color: #f8765e;
+
+    .section-2 {
+      padding: 115px 0 230px;
+      justify-content: space-between;
+      display: flex;
+      @media only screen and (max-device-width: 480px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 60px 0 230px;
+      }
+
+      .top-content {
+        width: 50%;
+        @media only screen and (max-device-width: 480px) {
+          width: 88%;
+        }
+
+        .content-div {
+          .subscribe-button {
+            width: 35%;
+            @media only screen and (max-device-width: 480px) {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              margin-top: 20px;
+            }
+            .subb {
+              border: none;
+              padding: 17px 15px;
+              background: #9bdbe7;
+              border-radius: 20px;
+              font-family: "POPPINS";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 120%;
+              color: #ffffff;
+              @media only screen and (max-device-width: 480px) {
+                font-size: 15px;
+                padding: 15px 15px;
+              }
+            }
+          }
+
+          .email-input {
+            display: flex;
+            @media only screen and (max-device-width: 480px) {
+              flex-direction: column;
+              align-items: center;
+            }
+
+            .email {
+              width: 65%;
+              margin-right: 20px;
+              @media only screen and (max-device-width: 480px) {
+                width: 100%;
+                margin-right: unset;
+              }
+
+              input[type="text"] {
+                width: 100%;
+                border-style: hidden;
+                background-color: #ffffff;
+                padding: 16px 15px;
+                -webkit-box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16); 
+                box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16);
+                border-radius: 20px;
+                font-family: poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 25px;
+                color: black;
+
+                
+                @media only screen and (max-device-width: 480px) {
+                  padding: 10px 15px;
+                  font-weight: 600;
+                  font-size: 15px;
+                }
+                
+              }
+              input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: #CDCDCD;
+                opacity: 1; /* Firefox */
+              }
+            }
+          }
+
+          .main {
+            font-family: poppins;
+            margin-bottom: 30px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 120%;
+            color: #ffffff;
+            @media only screen and (max-device-width: 480px) {
+              text-align: center;
+              font-size: 22px;
+            }
+          }
+
+          .sub {
+            font-family: poppins;
+            font-style: normal;
+            font-weight: 500;
+            margin-bottom: 30px;
+            font-size: 16px;
+            line-height: 172%;
+            color: #ffffff;
+            @media only screen and (max-device-width: 480px) {
+              text-align: center;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .img-con {
+        width: 45%;
+        @media only screen and (max-device-width: 480px) {
+          width: 85%;
+          margin-bottom: 45px;
+        }
+
+        .img-div {
+          img {
+            object-fit: cover;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (max-device-width: 480px) {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .logo {
+          font-family: poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 26px;
+          line-height: 58px;
+          color: #ffffff;
+          width: 70%;
+          @media only screen and (max-device-width: 480px) {
+            justify-content: center;
+            display: flex;
+          }
+        }
+
+        .menu-sec {
+          width: 30%;
+          display: flex;
+          @media only screen and (max-device-width: 480px) {
+            width: 100%;
+          }
+
+          .menu {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .a {
+              text-decoration: none;
+              font-family: poppins;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 17px;
+              line-height: 32px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-3 {
+    margin-top: -150px;
+    @media only screen and (max-device-width: 480px) {
+      margin-top: -110px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      background: aliceblue;
+      box-shadow: 0px 10px 34px rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+      @media only screen and (max-device-width: 480px) {
+        flex-direction: column;
+        max-width: 285px;
+      }
+      .USP {
+        width: 34%;
+        padding: 35px 30px;
+        @media only screen and (max-device-width: 480px) {
+          padding: 20px 26px;
+          width: 100%;
+        }
+
+        .USP1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .title-con {
+            width: 100%;
+            margin: 30px 0 30px;
+            @media only screen and (max-device-width: 480px) {
+              margin: 20px 0px 20px;
+            }
+
+            .title {
+              font-family: poppins;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 25px;
+              color: #031d5b;
+              border-bottom: 6px red solid;
+              display: flex;
+              padding-bottom: 10px;
+              width: 22%;
+              @media only screen and (max-device-width: 480px) {
+                width: 27%;
+              }
+            }
+          }
+
+          .usp-content {
+            font-family: poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 32px;
+            color: #5b6c94;
+            @media only screen and (max-device-width: 480px) {
+              line-height: 26px;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-4 {
+    display: flex;
+    margin: 200px 0 120px;
+    @media only screen and (max-device-width: 480px) {
+      flex-direction: column;
+      margin: 150px 0 120px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      @media only screen and (max-device-width: 480px) {
+        max-width: 285px;
+      }
+      .middle-content {
+        display: flex;
+        align-items: center;
+        @media only screen and (max-device-width: 480px) {
+          flex-direction: column;
+        }
+
+        .left-column-mobile {
+          display: none;
+          @media only screen and (max-device-width: 480px) {
+            display: block;
+          }
+        }
+
+        .left-column {
+          width: 50%;
+          @media only screen and (max-device-width: 480px) {
+            display: none;
+          }
+        }
+        .right-column {
+          width: 50%;
+          @media only screen and (max-device-width: 480px) {
+            width: 100%;
+          }
+          .mid-title {
+            margin-bottom: 30px;
+            font-family: poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 60px;
+            text-align: right;
+            color: #f8765e;
+            @media only screen and (max-device-width: 480px) {
+              text-align: center;
+              font-size: 25px;
+              line-height: 120%;
+              margin-top: 40px;
+            }
+          }
+
+          .mid-subtitle {
+            margin-bottom: 30px;
+            font-family: poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 45px;
+            text-align: right;
+            color: #031d5b;
+            @media only screen and (max-device-width: 480px) {
+              font-size: 22px;
+              text-align: center;
+              line-height: 120%;
+            }
+          }
+
+          .mid-info {
+            margin-bottom: 30px;
+            font-family: poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: right;
+            color: #5b6c94;
+            @media only screen and (max-device-width: 480px) {
+              text-align: center;
+              font-size: 14px;
+              line-height: 185%;
+              color: #031d5b;
+            }
+          }
+
+          .subscribe-button {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            @media only screen and (max-device-width: 480px) {
+              justify-content: center;
+            }
+            .subb {
+              border: none;
+              padding: 17px 15px;
+              background: #9bdbe7;
+              border-radius: 20px;
+              font-family: "POPPINS";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 120%;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-5 {
+    position: relative;
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      @media only screen and (max-device-width: 480px) {
+        max-width: 285px;
+      }
+
+      .testimonial-section {
+        display: flex;
+
+        .orange-bg {
+          width: 70%;
+          position: RELATIVE;
+          left: 170px;
+          @media only screen and (max-device-width: 480px) {
+            width: 100%;
+            position: relative;
+            left: 19%;
+            top: 110px;
+          }
+          .bg {
+            width: 100%;
+            height: 952px;
+            background-repeat: no-repeat;
+            background-image: url("./assets/CustomersBackground.svg");
+            @media only screen and (max-device-width: 480px){
+              border-radius: 20px;
+              height: 650px;
+            }
+          }
+        }
+        .testimonial-quote {
+          width: 35%;
+          @media only screen and (max-device-width: 480px) {
+            position: absolute;
+            z-index: 1;
+            width: 50%;
+          }
+
+          .q-img {
+            img {
+              width: unset;
+              @media only screen and (max-device-width: 480px) {
+                width: 100%;
+              }
+            }
+          }
+          .test-quote {
+            width: 25%;
+            position: ABSOLUTE;
+            top: 5%;
+            left: 15%;
+            font-family: poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 48px;
+            color: #f8765e;
+            @media only screen and (max-device-width: 480px) {
+              font-size: 20px;
+              width: 100%;
+              line-height: 143%;
+              left: 10%;
+              top: 13%;
+            }
+          }
+        }
+      }
+
+      .review-cards {
+        position: absolute;
+        top: 22%;
+        left: 30%;
+        width: 67%;
+        display: flex;
+        @media only screen and (max-device-width: 480px) {
+          position: absolute;
+          top: 35%;
+          left: 5%;
+          width: 100%;
+          display: flex;
+        }
+        .blue-testimonial {
+          margin-right: 54px;
+          background: #9bdbe7;
+          box-shadow: 12px 12px 40px rgba(0, 0, 0, 0.25);
+          border-radius: 20px;
+          width: 50%;
+          @media only screen and (max-device-width: 480px) {
+            width: 100%;
+            margin-right: 18px;
+          }
+
+          .blue-content {
+            padding: 50px;
+            @media only screen and (max-device-width: 480px) {
+              padding: 24px;
+            }
+            .review-div {
+              width: 59%;
+              margin: 35px 0 170px;
+              @media only screen and (max-device-width: 480px) {
+                width: 100%;
+                margin: 25px 0 65px;
+              }
+              .review {
+                font-family: poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 36px;
+                color: #ffffff;
+                @media only screen and (max-device-width: 480px) {
+                  font-size: 15px;
+                  line-height: 157%;
+                }
+              }
+            }
+            .costumer-div {
+              .costumer {
+                font-family: poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 36px;
+                color: #ffffff;
+                @media only screen and (max-device-width: 480px) {
+                  font-size: 15px;
+                  line-height: 120%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-6 {
+    margin: 200px 0 120px;
+    @media only screen and (max-device-width: 480px) {
+      margin: 200px 0 85px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      @media only screen and (max-device-width: 480px) {
+        max-width: 285px;
+      }
+      .bottom-section {
+        .bottom-con {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          .btitle {
+            font-family: poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 60px;
+            color: #f8765e;
+            @media only screen and (max-device-width: 480px) {
+              font-size: 26px;
+              line-height: 120%;
+              text-align: center;
+            }
+          }
+          .countdown {
+            margin: 20px 0 50px;
+            font-family: poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 45px;
+            color: #cdcdcd;
+            @media only screen and (max-device-width: 480px) {
+              font-size: 21px;
+              line-height: 120%;
+              text-align: center;
+              margin: 10px 0 35px;
+            }
+          }
+          .bottom-subscribe {
+            .subscribe-button {
+              width: 35%;
+              @media only screen and (max-device-width: 480px) {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+              }
+              .subb {
+                border: none;
+                padding: 17px 15px;
+                background: #9bdbe7;
+                border-radius: 20px;
+                font-family: "POPPINS";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 120%;
+                color: #ffffff;
+                @media only screen and (max-device-width: 480px) {
+                  font-size: 17px;
+                }
+              }
+            }
+
+            .email-input {
+              display: flex;
+              @media only screen and (max-device-width: 480px) {
+                flex-direction: column;
+              }
+
+              .email {
+                width: 65%;
+                margin-right: 20px;
+                @media only screen and (max-device-width: 480px) {
+                  width: 100%;
+                  margin-right: unset;
+                  margin-bottom: 15px;
+                }
+
+                input[type="text"] {
+                  width: 100%;
+                  border-style: hidden;
+                  background-color: #ffffff;
+                  padding: 16px 15px;
+                  -webkit-box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16); 
+box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16);
+                  border-radius: 20px;
+                  font-family: poppins;
+                  font-style: normal;
+                  font-weight: bold;
+                  font-size: 20px;
+                  line-height: 25px;
+                  color: black;
+                  @media only screen and (max-device-width: 480px) {
+                    padding: 13px 15px;
+                    font-size: 15px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-7 {
+    background: #f8765e;
+    padding: 50px 0 50px;
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .copyright {
+        margin-bottom: 30px;
+        font-family: poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #ffffff;
+        @media only screen and (max-device-width: 480px) {
+          font-size: 15px;
+          margin-bottom: 15px;
+        }
+      }
+      .footer-menu {
+        .menu-sec {
+          .menu {
+            .a {
+              text-decoration: none;
+              font-family: poppins;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 17px;
+              line-height: 32px;
+              text-align: center;
+              color: #ffffff;
+              @media only screen and (max-device-width: 480px) {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

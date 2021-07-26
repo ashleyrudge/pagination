@@ -12,6 +12,7 @@ import {
   Link
 } from "react-router-dom";
 import Responsive2 from "./pages/Responsive2/Responsive2";
+import Orange from "./pages/Orange/Orange"
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/responsive2">
             <Responsive2/>
+          </Route>
+          <Route path="/orange">
+            <Orange/>
           </Route>
           
         </Switch>
