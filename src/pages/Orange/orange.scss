@@ -69,8 +69,8 @@
                 border-style: hidden;
                 background-color: #ffffff;
                 padding: 16px 15px;
-                -webkit-box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16); 
-                box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16);
+                -webkit-box-shadow: inset 1px 1px 15px 5px rgba(0, 0, 0, 0.16);
+                box-shadow: inset 1px 1px 15px 5px rgba(0, 0, 0, 0.16);
                 border-radius: 20px;
                 font-family: poppins;
                 font-style: normal;
@@ -79,16 +79,15 @@
                 line-height: 25px;
                 color: black;
 
-                
                 @media only screen and (max-device-width: 480px) {
                   padding: 10px 15px;
                   font-weight: 600;
                   font-size: 15px;
                 }
-                
               }
-              input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                color: #CDCDCD;
+              input::placeholder {
+                /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: #cdcdcd;
                 opacity: 1; /* Firefox */
               }
             }
@@ -404,7 +403,7 @@
             height: 952px;
             background-repeat: no-repeat;
             background-image: url("./assets/CustomersBackground.svg");
-            @media only screen and (max-device-width: 480px){
+            @media only screen and (max-device-width: 480px) {
               border-radius: 20px;
               height: 650px;
             }
@@ -607,8 +606,8 @@
                   border-style: hidden;
                   background-color: #ffffff;
                   padding: 16px 15px;
-                  -webkit-box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16); 
-box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16);
+                  -webkit-box-shadow: inset 1px 1px 15px 5px rgba(0, 0, 0, 0.16);
+                  box-shadow: inset 1px 1px 15px 5px rgba(0, 0, 0, 0.16);
                   border-radius: 20px;
                   font-family: poppins;
                   font-style: normal;
@@ -620,10 +619,11 @@ box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16);
                     padding: 13px 15px;
                     font-size: 15px;
                   }
-                  input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                    color: #CDCDCD;
-                    opacity: 1; /* Firefox */
-                  }
+                }
+                input::placeholder {
+                  /* Chrome, Firefox, Opera, Safari 10.1+ */
+                  color: #cdcdcd;
+                  opacity: 1; /* Firefox */
                 }
               }
             }
