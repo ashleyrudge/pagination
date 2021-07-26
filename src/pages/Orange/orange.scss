@@ -621,6 +621,10 @@ box-shadow: inset 1px 1px 15px 5px rgba(0,0,0,0.16);
                     font-size: 15px;
                   }
                 }
+                input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                  color: #CDCDCD;
+                  opacity: 1; /* Firefox */
+                }
               }
             }
           }
