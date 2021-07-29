@@ -69,12 +69,12 @@
                 border-style: hidden;
                 background-color: #ffffff;
                 padding: 16px 15px;
-                -webkit-box-shadow: inset 1px 1px 15px 5px rgba(0, 0, 0, 0.16);
-                box-shadow: inset 1px 1px 15px 5px rgba(0, 0, 0, 0.16);
+                -webkit-box-shadow: inset 1px 1px 5px -1px rgba(0, 0, 0, 0.16);
+                box-shadow: inset 1px 1px 5px -1px rgba(0, 0, 0, 0.16);
                 border-radius: 20px;
                 font-family: poppins;
                 font-style: normal;
-                font-weight: bold;
+                font-weight: 500;
                 font-size: 20px;
                 line-height: 25px;
                 color: black;
@@ -377,8 +377,29 @@
   }
 
   .section-5 {
+    &::before{
+      content: "";
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: #f8765e;
+    border-radius: 20px 0 0 20px;
+    @media only screen and (max-device-width: 480px){
+      content: "";
+    position: absolute;
+    right: 0;
+    top: 97px;
+    height: 80%;
+    width: 73%;
+    background: #f8765e;
+    border-radius: 20px 0 0 20px;
+    }
+    }
     position: relative;
+    padding-bottom: 250px;
     .container {
+      position: relative;
       max-width: 1100px;
       margin: auto;
       @media only screen and (max-device-width: 480px) {
@@ -410,7 +431,7 @@
           }
         }
         .testimonial-quote {
-          width: 35%;
+          width: 25%;
           @media only screen and (max-device-width: 480px) {
             position: absolute;
             z-index: 1;
@@ -426,10 +447,10 @@
             }
           }
           .test-quote {
-            width: 25%;
+            width: 38%;
             position: ABSOLUTE;
             top: 5%;
-            left: 15%;
+            left: 3%;
             font-family: poppins;
             font-style: normal;
             font-weight: 600;
@@ -437,31 +458,31 @@
             line-height: 48px;
             color: #f8765e;
             @media only screen and (max-device-width: 480px) {
-              font-size: 20px;
+              font-size: 18px;
               width: 100%;
-              line-height: 143%;
-              left: 10%;
-              top: 13%;
+              line-height: 160%;
+              left: 11%;
+              top: 15%;
             }
           }
         }
       }
 
       .review-cards {
-        position: absolute;
-        top: 22%;
-        left: 30%;
-        width: 67%;
+        width: 100%;
         display: flex;
+        padding-top: 250px;
         @media only screen and (max-device-width: 480px) {
-          position: absolute;
+          position: relative;
           top: 35%;
           left: 5%;
           width: 100%;
           display: flex;
+          max-width: 100%;
+          overflow: auto;
         }
         .blue-testimonial {
-          margin-right: 54px;
+          margin-right: 45PX;
           background: #9bdbe7;
           box-shadow: 12px 12px 40px rgba(0, 0, 0, 0.25);
           border-radius: 20px;
@@ -469,18 +490,17 @@
           @media only screen and (max-device-width: 480px) {
             width: 100%;
             margin-right: 18px;
+            min-width: 94%;
           }
 
           .blue-content {
             padding: 50px;
             @media only screen and (max-device-width: 480px) {
-              padding: 24px;
+              padding: 40px;
             }
             .review-div {
-              width: 59%;
               margin: 35px 0 170px;
-              @media only screen and (max-device-width: 480px) {
-                width: 100%;
+              @media only screen and (max-device-width: 480px) { 
                 margin: 25px 0 65px;
               }
               .review {
@@ -519,7 +539,7 @@
   .section-6 {
     margin: 200px 0 120px;
     @media only screen and (max-device-width: 480px) {
-      margin: 200px 0 85px;
+      margin: 65px 0 85px;
     }
     .container {
       max-width: 1100px;
@@ -606,12 +626,12 @@
                   border-style: hidden;
                   background-color: #ffffff;
                   padding: 16px 15px;
-                  -webkit-box-shadow: inset 1px 1px 15px 5px rgba(0, 0, 0, 0.16);
-                  box-shadow: inset 1px 1px 15px 5px rgba(0, 0, 0, 0.16);
+                  -webkit-box-shadow: inset 1px 1px 5px -1px rgba(0, 0, 0, 0.16);
+                  box-shadow: inset 1px 1px 5px -1px rgba(0, 0, 0, 0.16);
                   border-radius: 20px;
                   font-family: poppins;
                   font-style: normal;
-                  font-weight: bold;
+                  font-weight: 500;
                   font-size: 20px;
                   line-height: 25px;
                   color: black;
@@ -656,8 +676,21 @@
         }
       }
       .footer-menu {
+        @media only screen and (max-device-width: 480px){
+          width: 100%;
+        }
         .menu-sec {
           .menu {
+            @media only screen and (max-device-width: 480px){
+              width: 100%;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+            }
+            span {
+              color: #ffffff;
+              margin: 20px 0 20px;
+            }
             .a {
               text-decoration: none;
               font-family: poppins;

@@ -121,9 +121,6 @@ function Orange() {
                 <img src={quote} alt="quote" />
               </div>
             </div>
-            <div class="orange-bg">
-              <div class="bg"></div>
-            </div>
           <div class="review-cards">
             <Testimonial
             image={whiteqoute}
@@ -167,8 +164,10 @@ function Orange() {
           <div class="footer-menu">
           <div class="menu-sec">
            <div class="menu">
-                 <a class="a" href="#">Benefit /</a>
-                 <a class="a" href="#">Pricing /</a>
+                 <a class="a" href="#">Benefit</a>
+                 <span>/</span>
+                 <a class="a" href="#">Pricing</a>
+                 <span>/</span>
                  <a class="a" href="#">Testimonials</a>
            </div>
            </div>
