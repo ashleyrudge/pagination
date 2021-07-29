@@ -676,17 +676,17 @@
         }
       }
       .footer-menu {
-        @media only screen and (max-device-width: 480px){
+        
           width: 100%;
-        }
+        
         .menu-sec {
           .menu {
-            @media only screen and (max-device-width: 480px){
+          
               width: 100%;
               display: flex;
               justify-content: space-around;
               align-items: center;
-            }
+      
             span {
               color: #ffffff;
               margin: 20px 0 20px;
