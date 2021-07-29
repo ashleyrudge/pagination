@@ -680,12 +680,18 @@
           width: 100%;
         
         .menu-sec {
+          display: flex;
+    justify-content: center;
           .menu {
           
-              width: 100%;
+            width: 42%;
               display: flex;
               justify-content: space-around;
               align-items: center;
+
+              @media only screen and (max-device-width: 480px){
+                width: 100%;
+              }
       
             span {
               color: #ffffff;
